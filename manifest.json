@@ -1,0 +1,24 @@
+{
+
+    "description": "Automatically closes any tab not accessed for 48h hours.  When a tab is closed, a bookmark is placed in tabexpire folder.",
+    "manifest_version": 2,
+    "name": "tabexpire",
+    "version": "1.0",
+    "homepage_url": "https://github.com/cfcfs/tabexpire",
+    "icons": {
+        "24": "icons/ic_schedule_black_24px.svg"
+    },
+
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "storage",
+        "alarms"
+    ],  
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+
+
+}
